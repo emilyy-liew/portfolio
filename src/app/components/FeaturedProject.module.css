@@ -11,17 +11,63 @@
   padding: 1em;
 }
 
+.words h3 {
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+.words h4 {
+  font-style: italic;
+  font-size: 1em;
+}
+
+.words p {
+  color: #dfa67b;
+  margin-bottom: 1em;
+}
+
+.words li {
+  font-size: 0.8em;
+  color: #dfa67b;
+}
+
 .imageContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 152, 115); /* #fff2cc; */
   border-radius: 1em;
-  padding: 2em;
+  padding: 1.5em;
   width: 50%;
   transition: padding 0.5s;
 }
 
 .imageContainer:hover {
   padding: 1em;
+}
+
+.links,
+.links:visited {
+  background-color: cornsilk;
+  padding: 5px 10px;
+  border-radius: 1em;
+  width: fit-content;
+}
+
+.links:hover {
+  background-color: #ffd966;
+  color: beige;
+}
+
+.linkBar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skillsContainer {
+  display: flex;
+}
+
+.list {
+  width: 50%;
+  margin-bottom: 1em;
 }

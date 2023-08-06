@@ -19,7 +19,7 @@ export default function Home() {
             Georgia Tech to create software that will positively impact others'
             lives.
           </h1>
-          <p>
+          <p style={{ fontStyle: "italic" }}>
             I am currently seeking a software engineering internship for Summer
             2024. Email me with any opportunities or questions! →{" "}
             <a href="mailto: eliew3@gatech.edu">eliew3@gatech.edu</a>
@@ -30,6 +30,7 @@ export default function Home() {
           <h2>Featured Projects:</h2>
           <FeaturedProject
             imgSrc={bounceTasks}
+            color="rgb(255, 152, 115)"
             title="Bounce"
             description="Bounce is a full-stack web app, powered by React,  
                         TypeScript, and AWS, offering users an efficient platform 
@@ -50,7 +51,7 @@ export default function Home() {
             layout={FeaturedProjectLayout.Left}
             readMoreLink="/projects/bounce"
             githubLink="https://github.com/emilyy-liew/bounce"
-            websiteLink="main.d2ngor7ea7fphp.amplifyapp.com/"
+            websiteLink="https://main.d2ngor7ea7fphp.amplifyapp.com/"
           />
         </section>
       </div>

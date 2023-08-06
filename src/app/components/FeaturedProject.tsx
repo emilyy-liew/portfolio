@@ -9,6 +9,7 @@ export enum FeaturedProjectLayout {
 
 export default function FeaturedProject(props: {
   imgSrc: StaticImageData;
+  color: string;
   title: string;
   description: string;
   skill: string[];
@@ -18,7 +19,10 @@ export default function FeaturedProject(props: {
   websiteLink?: string;
 }) {
   const image = (
-    <div className={styles.imageContainer}>
+    <div
+      className={styles.imageContainer}
+      style={{ backgroundColor: `${props.color}` }}
+    >
       <Image
         src={props.imgSrc}
         alt={`Image of the ${props.title}`}
@@ -38,22 +42,37 @@ export default function FeaturedProject(props: {
       <h3>{props.title}</h3>
       <p>{props.description}</p>
       <ul>
-        Skills Used:
-        {props.skill.map((skill) => (
-          <li>{skill}</li>
-        ))}
-      </ul>
-      <div className={styles.links}>
-        <Link href={props.readMoreLink}>Read More →</Link>
-      </div>
-      <div className={styles.links}>
-        <a href={props.githubLink}>GitHub Repo →</a>
-      </div>
-      {props.websiteLink && (
-        <div className={styles.links}>
-          <a href={props.websiteLink}>Try {props.title} →</a>
+        <h4>Skills Used:</h4>
+        <div className={styles.skillsContainer}>
+          <div className={styles.list}>
+            {props.skill.map((skill, index) => {
+              if (index % 2 == 0) {
+                return <li>{skill}</li>;
+              }
+            })}
+          </div>
+          <div>
+            {props.skill.map((skill, index) => {
+              if (index % 2 == 1) {
+                return <li>{skill}</li>;
+              }
+            })}
+          </div>
         </div>
-      )}
+      </ul>
+      <div className={styles.linkBar}>
+        <Link className={styles.links} href={props.readMoreLink}>
+          Read More →
+        </Link>
+        <a className={styles.links} href={props.githubLink} target="_blank">
+          GitHub Repo →
+        </a>
+        {props.websiteLink && (
+          <a className={styles.links} href={props.websiteLink} target="_blank">
+            Try {props.title} →
+          </a>
+        )}
+      </div>
     </div>
   );
   return (

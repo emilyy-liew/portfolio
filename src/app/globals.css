@@ -15,6 +15,11 @@ h2 {
   color: #dfa67b;
 }
 
+h3,
+h4 {
+  color: #884a39;
+}
+
 p {
   color: #f4b183;
 }
