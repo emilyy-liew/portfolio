@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Black", serif;
+}
+
+body {
+  background-color: #fffae5;
+  margin: 3em 10em;
+}
+
+h1,
+h2 {
+  color: #dfa67b;
+}
+
+p {
+  color: #f4b183;
+}
+
+a,
+a:visited {
+  color: #dfa67b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f4b183;
+}
+
+li {
+  margin-left: 40px;
+}

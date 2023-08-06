@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.4.12"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.8",
+    "@types/react": "18.2.18",
+    "typescript": "5.1.6"
+  }
+}

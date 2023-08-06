@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-bottom: 3em;
+}
+
+.active,
+.inactive {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 0 0 0 0.5em;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.home {
+  margin: 0 auto 0 0;
+}
