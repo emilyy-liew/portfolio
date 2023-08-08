@@ -1,0 +1,131 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.page_pageContainer___Ajkl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page_intro__NrUPI {
+  width: 60%;
+  font-size: 1.5em;
+  margin-bottom: 3em;
+}
+
+.page_pageContainer___Ajkl p {
+  font-size: 0.8em;
+}
+
+.page_featured__4xI3W {
+  align-self: flex-start;
+  font-size: 1.5em;
+  background-color: var(--primary-container-color);
+  padding: 15px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/Header.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.Header_container__L4JQR {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-bottom: 3em;
+}
+
+.Header_active__t8h51,
+.Header_inactive__D_YnX {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 0 0 0 0.5em;
+}
+
+.Header_active__t8h51 {
+  font-weight: 700;
+}
+
+.Header_home__1wUe_ {
+  margin: 0 auto 0 0;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/FeaturedProject.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.FeaturedProject_container__Cg5L3 {
+  display: flex;
+  margin-top: 1em;
+}
+
+.FeaturedProject_words__n_Z_w {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 1em;
+}
+
+.FeaturedProject_words__n_Z_w h3 {
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+.FeaturedProject_words__n_Z_w h4 {
+  font-style: italic;
+  font-size: 1em;
+}
+
+.FeaturedProject_words__n_Z_w p {
+  margin-bottom: 1em;
+}
+
+.FeaturedProject_words__n_Z_w li {
+  font-size: 0.8em;
+  color: var(--primary-color);
+}
+
+.FeaturedProject_imageContainer__eQgbF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  padding: 1.5em;
+  width: 50%;
+  transition: padding 0.5s;
+}
+
+.FeaturedProject_imageContainer__eQgbF:hover {
+  padding: 1em;
+}
+
+.FeaturedProject_links__idu5P,
+.FeaturedProject_links__idu5P:visited {
+  background-color: var(--secondary-container-color);
+  color: var(--on-secondary-container-color);
+  padding: 5px 10px;
+  border-radius: 1em;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.FeaturedProject_links__idu5P:hover {
+  background-color: var(--tertiary-color);
+  color: var(--on-tertiary-color);
+}
+
+.FeaturedProject_linkBar__etABZ {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.FeaturedProject_skillsContainer__xMWq7 {
+  display: flex;
+}
+
+.FeaturedProject_list__b6D5R {
+  width: 50%;
+  margin-bottom: 1em;
+}
+

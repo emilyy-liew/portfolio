@@ -1,37 +1,51 @@
+:root {
+  --main-bg-color: #fffbff;
+  --primary-color: #9c423a;
+  --on-primary-color: #ffffff;
+  --secondary-text-color: #775652;
+  --tertiary-color: #715b2e;
+  --on-tertiary-color: #ffffff;
+  --outline-color: #857371;
+  --primary-container-color: #ffdad6;
+  --on-primary-container-color: #410002;
+  --secondary-container-color: #fddfa6;
+  --on-secondary-container-color: #261900;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Black", serif;
+  font-family: "Abril Fatface", serif;
 }
 
 body {
-  background-color: #fffae5;
+  background-color: var(--main-bg-color);
   margin: 3em 10em;
 }
 
 h1,
 h2 {
-  color: #dfa67b;
+  color: var(--primary-color);
 }
 
 h3,
 h4 {
-  color: #884a39;
+  color: var(--secondary-text-color);
 }
 
 p {
-  color: #f4b183;
+  color: var(--primary-color);
 }
 
 a,
 a:visited {
-  color: #dfa67b;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: #f4b183;
+  color: var(--secondary-text-color);
 }
 
 li {

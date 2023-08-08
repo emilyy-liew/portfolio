@@ -1,11 +1,10 @@
 import styles from "./page.module.css";
-import Header from "./components/Header";
-import { Pages } from "./components/Header";
+import Header from "../components/Header";
+import { Pages } from "../components/Header";
 import FeaturedProject, {
   FeaturedProjectLayout,
-} from "./components/FeaturedProject";
-import bounceRecipes from "../../public/bounceRecipes.png";
-import bounceTasks from "../../public/bounceTasks.png";
+} from "../components/FeaturedProject";
+import { bounce } from "../data/projects";
 
 export default function Home() {
   return (
@@ -29,29 +28,9 @@ export default function Home() {
         <section className={styles.featured}>
           <h2>Featured Projects:</h2>
           <FeaturedProject
-            imgSrc={bounceTasks}
-            color="rgb(255, 152, 115)"
-            title="Bounce"
-            description="Bounce is a full-stack web app, powered by React,  
-                        TypeScript, and AWS, offering users an efficient platform 
-                        to track recipes and manage to-do tasks. Bounce has an automatic task management 
-                        system with automatic task prioritization based on deadllines and task duration 
-                        as well as a Recipe Dashboard with recipe management and real-time sorting based 
-                        on available ingredients, ensuring seamless organization and productivity for 
-                        its users. Data persistence is achieved through back-end database connectivity, 
-                        enhancing user experience and convenience."
-            skill={[
-              "TypeScript",
-              "AWS",
-              "React",
-              "Next.js",
-              "REST APIs",
-              "Node.js",
-            ]}
+            project={bounce}
             layout={FeaturedProjectLayout.Left}
-            readMoreLink="/projects/bounce"
-            githubLink="https://github.com/emilyy-liew/bounce"
-            websiteLink="https://main.d2ngor7ea7fphp.amplifyapp.com/"
+            priority
           />
         </section>
       </div>

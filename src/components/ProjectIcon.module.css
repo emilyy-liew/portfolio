@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  text-align: center;
+}
+
+.imageContainer {
+  width: 100%;
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 10px;
+}
+
+.link {
+  width: fit-content;
+}
