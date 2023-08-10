@@ -1,0 +1,18 @@
+.iconbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 2%;
+  justify-content: center;
+  gap: 10px;
+  transform: translateY(-50%);
+}
+
+.icon {
+  border-radius: 9999px;
+}
+
+.icon:hover {
+  border: 3px solid var(--primary-color);
+}

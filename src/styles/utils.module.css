@@ -19,6 +19,7 @@
   padding: 5px 10px;
   border-radius: 25px;
   width: fit-content;
+  font-size: 1.2em;
 }
 
 .ctaButton:hover {
@@ -33,6 +34,7 @@
   padding: 5px 10px;
   border-radius: 25px;
   width: fit-content;
+  font-size: 1.2em;
 }
 
 .secondaryCtaButton:hover {
@@ -45,7 +47,7 @@
 }
 
 .thinMargin {
-  margin: 5% 5%;
+  margin: 5% 7%;
 }
 
 .horizontalSection {

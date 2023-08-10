@@ -1,0 +1,87 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/utils.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.utils_bold__C4Na9 {
+  font-weight: 700;
+}
+
+.utils_ctaButtonBar__mcDTE {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.utils_ctaButton__Ed4v5,
+.utils_ctaButton__Ed4v5:visited {
+  background-color: var(--primary-container-color);
+  color: var(--on-primary-container-color);
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2em;
+}
+
+.utils_ctaButton__Ed4v5:hover {
+  background-color: var(--secondary-container-color);
+  color: var(--on-secondary-container-color);
+}
+
+.utils_secondaryCtaButton__CjIAw,
+.utils_secondaryCtaButton__CjIAw:visited {
+  background-color: var(--primary-container-color);
+  color: var(--on-primary-container-color);
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2em;
+}
+
+.utils_secondaryCtaButton__CjIAw:hover {
+  background-color: var(--tertiary-color);
+  color: var(--on-tertiary-color);
+}
+
+.utils_thickMargin__BohRF {
+  margin: 5% 10%;
+}
+
+.utils_thinMargin__u5tId {
+  margin: 5% 7%;
+}
+
+.utils_horizontalSection__H4Izv {
+  background-color: var(--primary-container-color);
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/Header.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Header_container__O36kb {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-bottom: 5%;
+}
+
+.Header_active__C_hPE,
+.Header_inactive__Lt5P0 {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 0 0 0 1%;
+}
+
+.Header_active__C_hPE {
+  font-weight: 700;
+}
+
+.Header_home__p_hrc {
+  margin: 0 auto 0 0;
+}
+

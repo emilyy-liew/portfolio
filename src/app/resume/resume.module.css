@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--primary-container-color);
+  border-radius: 25px;
+  padding: 0 20px;
+  width: fit-content;
+}
+
+.container h2 {
+  color: var(--on-primary-container-color);
+}

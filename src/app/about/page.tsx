@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Header, { Pages } from "../../components/Header";
+import Header, { Pages } from "../components/Header";
 import emilyProfile from "public/emilyProfile.jpg";
 import email from "public/email.png";
 import linkedin from "public/linkedin.png";

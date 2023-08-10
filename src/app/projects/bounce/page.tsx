@@ -2,20 +2,32 @@ import Image from "next/image";
 import PostLayout from "../PostLayout";
 import { bounce } from "@/data/projects";
 import profile from "@/data/profile";
-import SideBySide, { SideBySideLayout } from "@/components/Side-By-Side";
+import SideBySide, { SideBySideLayout } from "@/app/components/Side-By-Side";
 import utilStyles from "@/styles/utils.module.css";
-import CenteredContainer from "@/components/CenteredContainer";
+import CenteredContainer from "@/app/components/CenteredContainer";
 
 export default function Bounce() {
   const horizontalIconBar = (
     <div className={utilStyles.ctaButtonBar}>
-      <a className={utilStyles.ctaButton} href={String(bounce.websiteLink)}>
+      <a
+        className={utilStyles.ctaButton}
+        href={String(bounce.websiteLink)}
+        target="_blank"
+      >
         Try Bounce Now →
       </a>
-      <a className={utilStyles.ctaButton} href={bounce.githubLink}>
+      <a
+        className={utilStyles.ctaButton}
+        href={bounce.githubLink}
+        target="_blank"
+      >
         Explore Bounce's Repo →
       </a>
-      <a className={utilStyles.ctaButton} href={profile.linkedin}>
+      <a
+        className={utilStyles.ctaButton}
+        href={profile.linkedin}
+        target="_blank"
+      >
         Connect with me on LinkedIn →
       </a>
     </div>
@@ -50,7 +62,7 @@ export default function Bounce() {
           altText={`Image of my paper planner`}
           sectionHeader={["Origin Story"]}
           sectionText={[
-            <span>
+            <p>
               A couple years ago, during the peak of Covid-19 when everyone was
               discovering new hobbies whilst stuck at home, I got super into
               planning and bullet journaling (which is ironic considering there
@@ -59,7 +71,7 @@ export default function Bounce() {
               I think! <br />
               When I needed to turn back to my digital tools, I decided to
               digitize my planning system through a web app called Bounce.
-            </span>,
+            </p>,
           ]}
           layout={SideBySideLayout.Left}
         />
@@ -69,7 +81,7 @@ export default function Bounce() {
           altText={`Image of early Bounce sketches`}
           sectionHeader={["The Planning Stage"]}
           sectionText={[
-            <span>
+            <p>
               Even in these{" "}
               <span style={{ fontStyle: "italic" }}>(very rough)</span> sketches
               of Bounce, the influence of other user interfaces are visible. The
@@ -78,7 +90,7 @@ export default function Bounce() {
               screen is reserved for the main content of the page. Initially,
               Bounce started off completedly as a task manager, so the main
               content in this sketch is the task manager.
-            </span>,
+            </p>,
           ]}
           layout={SideBySideLayout.Right}
         />
@@ -93,7 +105,7 @@ export default function Bounce() {
               "Stopwatch: The Time is Ticking",
             ]}
             sectionText={[
-              <span>
+              <p>
                 Leveraging React's useEffect hook and AWS, I architected an
                 automated task prioritization system. By factoring in deadlines
                 and task duration, Bounce intelligently categorizes and
@@ -111,8 +123,8 @@ export default function Bounce() {
                 and Cognito as an authentication service ensures persistent
                 storage for users, guaranteeing data consistency across devices
                 and sessions.
-              </span>,
-              <span>
+              </p>,
+              <p>
                 In the realm of productivity, every second counts, and Bounce's
                 Stopwatch feature stands as a testament to this truth. With each
                 task receiving its own independent stopwatch, you are able to
@@ -124,7 +136,7 @@ export default function Bounce() {
                 amount of time you spent in your work session. It is also
                 particularly useful to those that work with the Pomodoro
                 Technique, allowing them to monitor the time that has passed.
-              </span>,
+              </p>,
             ]}
             layout={SideBySideLayout.Left}
           />
@@ -139,7 +151,7 @@ export default function Bounce() {
             "Intuitive Dynamic Recipe Sorting",
           ]}
           sectionText={[
-            <span>
+            <p>
               As I evaluated my needs before the start of the Fall 2023 semester
               where I would be living in an apartment-style dorm, I decided to
               add the recipe dashboard page to meet my needs since I planned to
@@ -152,8 +164,8 @@ export default function Bounce() {
               favorite recipes. Through dynamic components such as dropdowns,
               collapsibles, and forms, users can effortlessly add new recipes
               and new ingredients into their inventory.
-            </span>,
-            <span>
+            </p>,
+            <p>
               A standout feature of Bounce is its ability to dynamically sort
               recipes based on available ingredients. Recipes that you have the
               necessary ingredients versus those you do not have the necessary
@@ -164,7 +176,7 @@ export default function Bounce() {
               will also automatically sort the list to show the recipes that you
               can make at the top of the list, followed by those you require
               additional ingredients for.
-            </span>,
+            </p>,
           ]}
           layout={SideBySideLayout.Right}
         />
@@ -184,16 +196,21 @@ export default function Bounce() {
             sectionHeader="Collaboration"
             sectionText={
               <span>
-                When I first embarked on my Bounce journey, I knew it I would
-                need help along the way. Thus, I recruited my software developer
-                friend, Brian Zheng, to help me with some aspects in the
-                development of Bounce and for some feedback. To learn more about
-                his contributions to this project, check out his portfolio!{" "}
-                <br />
+                <p>
+                  When I first embarked on my Bounce journey, I knew it I would
+                  need help along the way. Thus, I recruited my software
+                  developer friend, Brian Zheng, to help me with some aspects in
+                  the development of Bounce and for some feedback. To learn more
+                  about his contributions to this project, check out his
+                  portfolio! <br />
+                </p>
                 <div style={{ marginTop: "10px" }}>
                   <a
                     className={utilStyles.secondaryCtaButton}
-                    href={"https://portfolio-brianzheng205.vercel.app/"}
+                    href={
+                      "https://portfolio-brianzheng205.vercel.app/projects/bounce#contributions"
+                    }
+                    target="_blank"
                   >
                     Check Out Brian's Portfolio →
                   </a>

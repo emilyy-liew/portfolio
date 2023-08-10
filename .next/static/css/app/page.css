@@ -1,3 +1,112 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/utils.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.utils_bold__C4Na9 {
+  font-weight: 700;
+}
+
+.utils_ctaButtonBar__mcDTE {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.utils_ctaButton__Ed4v5,
+.utils_ctaButton__Ed4v5:visited {
+  background-color: var(--primary-container-color);
+  color: var(--on-primary-container-color);
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2em;
+}
+
+.utils_ctaButton__Ed4v5:hover {
+  background-color: var(--secondary-container-color);
+  color: var(--on-secondary-container-color);
+}
+
+.utils_secondaryCtaButton__CjIAw,
+.utils_secondaryCtaButton__CjIAw:visited {
+  background-color: var(--primary-container-color);
+  color: var(--on-primary-container-color);
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2em;
+}
+
+.utils_secondaryCtaButton__CjIAw:hover {
+  background-color: var(--tertiary-color);
+  color: var(--on-tertiary-color);
+}
+
+.utils_thickMargin__BohRF {
+  margin: 5% 10%;
+}
+
+.utils_thinMargin__u5tId {
+  margin: 5% 7%;
+}
+
+.utils_horizontalSection__H4Izv {
+  background-color: var(--primary-container-color);
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/Header.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Header_container__O36kb {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-bottom: 5%;
+}
+
+.Header_active__C_hPE,
+.Header_inactive__Lt5P0 {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 0 0 0 1%;
+}
+
+.Header_active__C_hPE {
+  font-weight: 700;
+}
+
+.Header_home__p_hrc {
+  margin: 0 auto 0 0;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/VerticalLinksBar.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.VerticalLinksBar_iconbar__VPVpl {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 2%;
+  justify-content: center;
+  gap: 10px;
+  transform: translateY(-50%);
+}
+
+.VerticalLinksBar_icon__NUnmZ {
+  border-radius: 9999px;
+}
+
+.VerticalLinksBar_icon__NUnmZ:hover {
+  border: 3px solid var(--primary-color);
+}
+
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/page.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************/
@@ -26,126 +135,41 @@
   border-radius: 15px;
 }
 
-/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/utils.module.css ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************/
-.utils_bold__C4Na9 {
-  font-weight: 700;
-}
-
-.utils_ctaButtonBar__mcDTE {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.utils_ctaButton__Ed4v5,
-.utils_ctaButton__Ed4v5:visited {
-  background-color: var(--primary-container-color);
-  color: var(--on-primary-container-color);
-  padding: 5px 10px;
-  border-radius: 25px;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.utils_ctaButton__Ed4v5:hover {
-  background-color: var(--secondary-container-color);
-  color: var(--on-secondary-container-color);
-}
-
-.utils_secondaryCtaButton__CjIAw,
-.utils_secondaryCtaButton__CjIAw:visited {
-  background-color: var(--primary-container-color);
-  color: var(--on-primary-container-color);
-  padding: 5px 10px;
-  border-radius: 25px;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.utils_secondaryCtaButton__CjIAw:hover {
-  background-color: var(--tertiary-color);
-  color: var(--on-tertiary-color);
-}
-
-.utils_thickMargin__BohRF {
-  margin: 5% 10%;
-}
-
-.utils_thinMargin__u5tId {
-  margin: 5% 5%;
-}
-
-.utils_horizontalSection__H4Izv {
-  background-color: var(--primary-container-color);
-}
-
-/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/Header.module.css ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************/
-.Header_container__L4JQR {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: baseline;
-  margin-bottom: 5%;
-}
-
-.Header_active__t8h51,
-.Header_inactive__D_YnX {
-  font-size: 1.5em;
-  text-decoration: none;
-  margin: 0 0 0 1%;
-}
-
-.Header_active__t8h51 {
-  font-weight: 700;
-}
-
-.Header_home__1wUe_ {
-  margin: 0 auto 0 0;
-}
-
-/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/FeaturedProject.module.css ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************/
-.FeaturedProject_container__Cg5L3 {
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/FeaturedProject.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.FeaturedProject_container__X1_VH {
   display: flex;
   margin-top: 3%;
 }
 
-.FeaturedProject_words__n_Z_w {
+.FeaturedProject_words__bLdLN {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding: 3%;
 }
 
-.FeaturedProject_words__n_Z_w h3 {
+.FeaturedProject_words__bLdLN h3 {
   font-style: italic;
   font-size: 1.3em;
 }
 
-.FeaturedProject_words__n_Z_w h4 {
+.FeaturedProject_words__bLdLN h4 {
   font-style: italic;
   font-size: 1em;
 }
 
-.FeaturedProject_words__n_Z_w p {
+.FeaturedProject_words__bLdLN p {
   margin-bottom: 3%;
 }
 
-.FeaturedProject_words__n_Z_w li {
+.FeaturedProject_words__bLdLN li {
   font-size: 0.8em;
   color: var(--primary-color);
 }
 
-.FeaturedProject_imageContainer__eQgbF {
+.FeaturedProject_imageContainer__cOKA4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,12 +179,12 @@
   transition: padding 0.5s;
 }
 
-.FeaturedProject_imageContainer__eQgbF:hover {
+.FeaturedProject_imageContainer__cOKA4:hover {
   padding: 20px;
 }
 
-.FeaturedProject_links__idu5P,
-.FeaturedProject_links__idu5P:visited {
+.FeaturedProject_links__3UiIJ,
+.FeaturedProject_links__3UiIJ:visited {
   background-color: var(--secondary-container-color);
   color: var(--on-secondary-container-color);
   padding: 5px 10px;
@@ -169,21 +193,21 @@
   width: fit-content;
 }
 
-.FeaturedProject_links__idu5P:hover {
+.FeaturedProject_links__3UiIJ:hover {
   background-color: var(--tertiary-color);
   color: var(--on-tertiary-color);
 }
 
-.FeaturedProject_linkBar__etABZ {
+.FeaturedProject_linkBar__eXobt {
   display: flex;
   justify-content: space-evenly;
 }
 
-.FeaturedProject_skillsContainer__xMWq7 {
+.FeaturedProject_skillsContainer__0Jt9V {
   display: flex;
 }
 
-.FeaturedProject_list__b6D5R {
+.FeaturedProject_list__2FEDU {
   width: 50%;
   margin-bottom: 3%;
 }

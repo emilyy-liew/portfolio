@@ -62,6 +62,7 @@
   border-radius: 25px;
   width: -moz-fit-content;
   width: fit-content;
+  font-size: 1.2em;
 }
 
 .utils_ctaButton__Ed4v5:hover {
@@ -77,6 +78,7 @@
   border-radius: 25px;
   width: -moz-fit-content;
   width: fit-content;
+  font-size: 1.2em;
 }
 
 .utils_secondaryCtaButton__CjIAw:hover {
@@ -89,17 +91,17 @@
 }
 
 .utils_thinMargin__u5tId {
-  margin: 5% 5%;
+  margin: 5% 7%;
 }
 
 .utils_horizontalSection__H4Izv {
   background-color: var(--primary-container-color);
 }
 
-/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/Header.module.css ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************/
-.Header_container__L4JQR {
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/styles/Header.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Header_container__O36kb {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -107,18 +109,18 @@
   margin-bottom: 5%;
 }
 
-.Header_active__t8h51,
-.Header_inactive__D_YnX {
+.Header_active__C_hPE,
+.Header_inactive__Lt5P0 {
   font-size: 1.5em;
   text-decoration: none;
   margin: 0 0 0 1%;
 }
 
-.Header_active__t8h51 {
+.Header_active__C_hPE {
   font-weight: 700;
 }
 
-.Header_home__1wUe_ {
+.Header_home__p_hrc {
   margin: 0 auto 0 0;
 }
 
