@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
 
 type projectItem = {
-  imgSrc: StaticImageData;
+  imgSrc: StaticImageData[];
   color: string;
   title: string;
   description: string;

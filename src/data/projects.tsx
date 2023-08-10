@@ -1,9 +1,11 @@
 import projectItem from "../types/projectItem";
 import bounceRecipes from "../../public/bounceRecipes.png";
+import ogPlanner from "@/../public/ogPlanner.jpg";
+import bounceBrainstorm from "@/../public/bounceBrainstorm.jpeg";
 import bounceTasks from "../../public/bounceTasks.png";
 
 export const bounce: projectItem = {
-  imgSrc: bounceTasks,
+  imgSrc: [bounceTasks, bounceRecipes, bounceBrainstorm, ogPlanner],
   color: "rgb(255, 152, 115)",
   title: "Bounce",
   description:

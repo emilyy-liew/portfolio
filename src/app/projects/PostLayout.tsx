@@ -1,5 +1,6 @@
 import "./projectpost.css";
 import Header, { Pages } from "../../components/Header";
+import utilStyles from "@/styles/utils.module.css";
 
 export default function PostLayout({
   children,
@@ -8,7 +9,9 @@ export default function PostLayout({
 }) {
   return (
     <div>
-      <Header active={Pages.Projects} />
+      <div className={utilStyles.thickMargin}>
+        <Header active={Pages.Projects} />
+      </div>
       <div className="post">{children}</div>
     </div>
   );

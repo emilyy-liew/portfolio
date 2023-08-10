@@ -2,9 +2,9 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/about/About.module.css ***!
   \************************************************************************************************************************************************************************************************************************************************************************/
 .About_container__Mtah5 {
-  margin: 0 10em;
   display: flex;
-  gap: 3em;
+  margin: 0 10%;
+  gap: 40px;
 }
 
 .About_image__3AjVL img {
@@ -29,7 +29,7 @@
 .About_body__iJjzt {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 20px;
 }
 
 .About_linkBar__nrzx9 {
@@ -44,6 +44,58 @@
   font-weight: 700;
 }
 
+.utils_ctaButtonBar__mcDTE {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.utils_ctaButton__Ed4v5,
+.utils_ctaButton__Ed4v5:visited {
+  background-color: var(--primary-container-color);
+  color: var(--on-primary-container-color);
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.utils_ctaButton__Ed4v5:hover {
+  background-color: var(--secondary-container-color);
+  color: var(--on-secondary-container-color);
+}
+
+.utils_secondaryCtaButton__CjIAw,
+.utils_secondaryCtaButton__CjIAw:visited {
+  background-color: var(--primary-container-color);
+  color: var(--on-primary-container-color);
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.utils_secondaryCtaButton__CjIAw:hover {
+  background-color: var(--tertiary-color);
+  color: var(--on-tertiary-color);
+}
+
+.utils_thickMargin__BohRF {
+  margin: 5% 10%;
+}
+
+.utils_thinMargin__u5tId {
+  margin: 5% 5%;
+}
+
+.utils_horizontalSection__H4Izv {
+  background-color: var(--primary-container-color);
+}
+
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/Header.module.css ***!
   \**************************************************************************************************************************************************************************************************************************************************************************/
@@ -52,14 +104,14 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: baseline;
-  margin-bottom: 3em;
+  margin-bottom: 5%;
 }
 
 .Header_active__t8h51,
 .Header_inactive__D_YnX {
   font-size: 1.5em;
   text-decoration: none;
-  margin: 0 0 0 0.5em;
+  margin: 0 0 0 1%;
 }
 
 .Header_active__t8h51 {

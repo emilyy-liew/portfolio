@@ -1,3 +1,53 @@
 .bold {
   font-weight: 700;
 }
+
+.ctaButtonBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ctaButton,
+.ctaButton:visited {
+  background-color: var(--primary-container-color);
+  color: var(--on-primary-container-color);
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: fit-content;
+}
+
+.ctaButton:hover {
+  background-color: var(--secondary-container-color);
+  color: var(--on-secondary-container-color);
+}
+
+.secondaryCtaButton,
+.secondaryCtaButton:visited {
+  background-color: var(--primary-container-color);
+  color: var(--on-primary-container-color);
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: fit-content;
+}
+
+.secondaryCtaButton:hover {
+  background-color: var(--tertiary-color);
+  color: var(--on-tertiary-color);
+}
+
+.thickMargin {
+  margin: 5% 10%;
+}
+
+.thinMargin {
+  margin: 5% 5%;
+}
+
+.horizontalSection {
+  background-color: var(--primary-container-color);
+}

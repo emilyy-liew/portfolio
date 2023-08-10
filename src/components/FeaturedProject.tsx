@@ -19,7 +19,7 @@ export default function FeaturedProject(props: {
       style={{ backgroundColor: `${props.project.color}` }}
     >
       <Image
-        src={props.project.imgSrc}
+        src={props.project.imgSrc[0]}
         alt={`Image of the ${props.project.title}`}
         sizes="100vw"
         style={{

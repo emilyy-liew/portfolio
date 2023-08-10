@@ -4,6 +4,7 @@ import emilyProfile from "public/emilyProfile.jpg";
 import email from "public/email.png";
 import linkedin from "public/linkedin.png";
 import github from "public/github.png";
+import profile from "@/data/profile";
 import styles from "./About.module.css";
 import utilStyles from "../../styles/utils.module.css";
 
@@ -12,7 +13,7 @@ export default function About() {
   const iconSize = 40;
 
   return (
-    <div>
+    <div className={utilStyles.thickMargin}>
       <Header active={Pages.About} />
       <div className={styles.container}>
         <div className={styles.image}>
@@ -44,7 +45,7 @@ export default function About() {
           <div className={styles.contact}>
             <h2>Contact & Links</h2>
             <div className={styles.linkBar}>
-              <a href="mailto:eliew3@gatech.edu">
+              <a href={`mailto:${profile.email}`}>
                 <Image
                   src={email}
                   width={iconSize}
@@ -52,7 +53,7 @@ export default function About() {
                   alt="email Emily Liew"
                 />
               </a>
-              <a href="https://www.linkedin.com/in/emilyliew/" target="_blank">
+              <a href={profile.linkedin} target="_blank">
                 <Image
                   src={linkedin}
                   width={iconSize}
@@ -60,7 +61,7 @@ export default function About() {
                   alt="visit Emily Liew's LinkedIn"
                 />
               </a>
-              <a href="https://www.github.com/emilyy-liew" target="_blank">
+              <a href={profile.github} target="_blank">
                 <Image
                   src={github}
                   width={iconSize}

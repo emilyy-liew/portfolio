@@ -1,13 +1,13 @@
 .container {
   display: flex;
-  margin-top: 1em;
+  margin-top: 3%;
 }
 
 .words {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 1em;
+  padding: 3%;
 }
 
 .words h3 {
@@ -21,7 +21,7 @@
 }
 
 .words p {
-  margin-bottom: 1em;
+  margin-bottom: 3%;
 }
 
 .words li {
@@ -33,14 +33,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 1em;
-  padding: 1.5em;
+  border-radius: 25px;
+  padding: 40px;
   width: 50%;
   transition: padding 0.5s;
 }
 
 .imageContainer:hover {
-  padding: 1em;
+  padding: 20px;
 }
 
 .links,
@@ -48,7 +48,7 @@
   background-color: var(--secondary-container-color);
   color: var(--on-secondary-container-color);
   padding: 5px 10px;
-  border-radius: 1em;
+  border-radius: 25px;
   width: fit-content;
 }
 
@@ -68,5 +68,5 @@
 
 .list {
   width: 50%;
-  margin-bottom: 1em;
+  margin-bottom: 3%;
 }

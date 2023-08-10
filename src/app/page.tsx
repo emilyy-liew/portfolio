@@ -5,10 +5,11 @@ import FeaturedProject, {
   FeaturedProjectLayout,
 } from "../components/FeaturedProject";
 import { bounce } from "../data/projects";
+import utilStyles from "@/styles/utils.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className={utilStyles.thickMargin}>
       <Header active={Pages.Home} />
 
       <div className={styles.pageContainer}>
