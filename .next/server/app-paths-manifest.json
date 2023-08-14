@@ -1,8 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/projects/page": "app/projects/page.js",
-  "/about/page": "app/about/page.js",
-  "/resume/page": "app/resume/page.js",
-  "/updates/page": "app/updates/page.js",
-  "/projects/bounce/page": "app/projects/bounce/page.js"
-}
